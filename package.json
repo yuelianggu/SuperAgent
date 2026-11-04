@@ -1,0 +1,12 @@
+{
+  "name": "superagent-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A tiny sandbox repository used to try out dsh-superagent.",
+  "type": "module",
+  "main": "src/greet.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
