@@ -8,7 +8,7 @@ same conversation with a branch and a pull request.
 
 ## Layout
 
-- `src/greet.js` — one exported function, the thing to change when trying a request.
+- `src/greet.js` — the `greet()` and `farewell()` helpers, the things to change when trying a request.
 - `test/greet.test.js` — tests run by Node's built-in test runner.
 
 ## Run the tests
