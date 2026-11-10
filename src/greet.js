@@ -15,3 +15,16 @@ export function greet(name, options = {}) {
   if (options.language === 'zh') return `你好，${who}！`
   return `Hello, ${who}!`
 }
+
+/**
+ * Return a farewell for `name`.
+ *
+ * @param {string} name
+ * @returns {string}
+ */
+export function farewell(name) {
+  const who = String(name ?? '').trim()
+  if (!who) throw new TypeError('farewell: name must be a non-empty string')
+
+  return `Goodbye, ${who}!`
+}
